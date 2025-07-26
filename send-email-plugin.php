@@ -362,43 +362,43 @@ function spl_get_default_templates() {
         'pepe' => [
             'initial' => [
                 'subject' => 'Your Secure Client Portal Link - PePe Evaluation',
-                'template' => '<html><head><style>body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 30px; } .email-container { background-color: #ffffff; padding: 30px; max-width: 600px; margin: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); } h2 { color: #2c3e50; } p { line-height: 1.6; } a.btn { display: inline-block; margin: 10px 0; padding: 12px 20px; background-color: #0073aa; color: white !important; text-decoration: none; border-radius: 5px; } .footer { font-size: 12px; color: #888; text-align: center; margin-top: 20px; }</style></head><body><div class="email-container"><h2>Good day {first_name},</h2><p>My name is Tim, and I am your evaluation administrator for the pre-employment psychological screening (PePe) requested by <strong>{client_name}</strong>.</p><p><strong>Your evaluation is scheduled for {eval_date} at {eval_time} ET</strong>.</p><p>Please complete the required assessments before your interview:</p><p><a class="btn" href="{pearson_link}">Complete Assessment</a></p><p><strong>Interview Link:</strong> <a href="{zoom_link}">Join Meeting</a></p><p>Thank you,<br><strong>Atlantic OccuPsych Team</strong></p></div></body></html>'
+                'template' => '<html><head><body></body></html>'
             ],
             '48hour' => [
                 'subject' => 'Reminder: PePe Evaluation in 48 hours',
-                'template' => '<html><head><style>body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 30px; } .email-container { background-color: #ffffff; padding: 30px; max-width: 600px; margin: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); } h2 { color: #ff6b35; } p { line-height: 1.6; } a.btn { display: inline-block; margin: 10px 0; padding: 12px 20px; background-color: #ff6b35; color: white !important; text-decoration: none; border-radius: 5px; }</style></head><body><div class="email-container"><h2>Hi {first_name},</h2><p><strong>Reminder: Your PePe evaluation with {client_name} is in 48 hours - {eval_date} at {eval_time} ET.</strong></p><p>Please ensure you have completed all required assessments.</p><p><a class="btn" href="{pearson_link}">Complete Assessment</a></p><p>Interview link: <a href="{zoom_link}">{zoom_link}</a></p><p>Questions? Reply to this email.</p><p>Atlantic OccuPsych Team</p></div></body></html>'
+                'template' => '<html><head><body></body></html>'
             ],
             '24hour' => [
                 'subject' => 'URGENT: PePe Evaluation Tomorrow',
-                'template' => '<html><head><style>body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 30px; } .email-container { background-color: #ffffff; padding: 30px; max-width: 600px; margin: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-left: 5px solid #ff0000; } h2 { color: #ff0000; } p { line-height: 1.6; } a.btn { display: inline-block; margin: 10px 0; padding: 12px 20px; background-color: #ff0000; color: white !important; text-decoration: none; border-radius: 5px; }</style></head><body><div class="email-container"><h2>URGENT - {first_name}</h2><p><strong>Your PePe evaluation with {client_name} is TOMORROW: {eval_date} at {eval_time} ET.</strong></p><p style="color: #ff0000;"><strong>Final reminder - complete all assessments TODAY.</strong></p><p><a class="btn" href="{pearson_link}">Complete Assessment NOW</a></p><p>Interview: <a href="{zoom_link}">{zoom_link}</a></p><p>Atlantic OccuPsych Team</p></div></body></html>'
+                'template' => '<html><head><body></body></html>'
             ]
         ],
         'ime' => [
             'initial' => [
                 'subject' => 'Your Independent Medical Examination (IME) Information',
-                'template' => '<html><head><style>body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 30px; } .email-container { background-color: #ffffff; padding: 30px; max-width: 600px; margin: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); } h2 { color: #2c3e50; } p { line-height: 1.6; } a.btn { display: inline-block; margin: 10px 0; padding: 12px 20px; background-color: #0073aa; color: white !important; text-decoration: none; border-radius: 5px; }</style></head><body><div class="email-container"><h2>Dear {first_name},</h2><p>You have been scheduled for an Independent Medical Examination (IME) requested by <strong>{client_name}</strong>.</p><p><strong>Your IME is scheduled for {eval_date} at {eval_time} ET</strong>.</p><p>Please prepare any relevant medical documentation and complete the required forms:</p><p><a class="btn" href="{pearson_link}">Complete Pre-IME Forms</a></p><p><strong>Meeting Link:</strong> <a href="{zoom_link}">Join IME Session</a></p><p>Please bring a valid ID and any relevant medical records.</p><p>Best regards,<br><strong>Atlantic OccuPsych Team</strong></p></div></body></html>'
+                'template' => '<html><head><body></body></html>'
             ],
             '48hour' => [
                 'subject' => 'Reminder: IME Appointment in 48 hours',
-                'template' => '<html><head><style>body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 30px; } .email-container { background-color: #ffffff; padding: 30px; max-width: 600px; margin: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); } h2 { color: #ff6b35; } p { line-height: 1.6; } a.btn { display: inline-block; margin: 10px 0; padding: 12px 20px; background-color: #ff6b35; color: white !important; text-decoration: none; border-radius: 5px; }</style></head><body><div class="email-container"><h2>Hi {first_name},</h2><p><strong>Reminder: Your IME appointment is in 48 hours - {eval_date} at {eval_time} ET.</strong></p><p>Please ensure you have:</p><ul><li>Completed all required pre-IME forms</li><li>Gathered relevant medical documentation</li><li>Valid identification ready</li></ul><p><a class="btn" href="{pearson_link}">Access Forms</a></p><p>Meeting link: <a href="{zoom_link}">{zoom_link}</a></p><p>Atlantic OccuPsych Team</p></div></body></html>'
+                'template' => '<html><head><body></body></html>'
             ],
             '24hour' => [
                 'subject' => 'REMINDER: IME Appointment Tomorrow',
-                'template' => '<html><head><style>body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 30px; } .email-container { background-color: #ffffff; padding: 30px; max-width: 600px; margin: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-left: 5px solid #ff6600; } h2 { color: #ff6600; } p { line-height: 1.6; } a.btn { display: inline-block; margin: 10px 0; padding: 12px 20px; background-color: #ff6600; color: white !important; text-decoration: none; border-radius: 5px; }</style></head><body><div class="email-container"><h2>Important Reminder - {first_name}</h2><p><strong>Your IME appointment is TOMORROW: {eval_date} at {eval_time} ET.</strong></p><p>Final checklist:</p><ul><li>Pre-IME forms completed</li><li>Medical records organized</li><li>Valid ID ready</li></ul><p><a class="btn" href="{zoom_link}">Join Tomorrow\'s IME</a></p><p>Atlantic OccuPsych Team</p></div></body></html>'
+                'template' => '<html><head><body></body></html>'
             ]
         ],
         'ffde' => [
             'initial' => [
                 'subject' => 'Your Fitness for Duty Evaluation (FFDE) Schedule',
-                'template' => '<html><head><style>body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 30px; } .email-container { background-color: #ffffff; padding: 30px; max-width: 600px; margin: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); } h2 { color: #2c3e50; } p { line-height: 1.6; } a.btn { display: inline-block; margin: 10px 0; padding: 12px 20px; background-color: #0073aa; color: white !important; text-decoration: none; border-radius: 5px; }</style></head><body><div class="email-container"><h2>Dear {first_name},</h2><p>You have been scheduled for a Fitness for Duty Evaluation (FFDE) as requested by <strong>{client_name}</strong>.</p><p><strong>Your FFDE is scheduled for {eval_date} at {eval_time} ET</strong>.</p><p>Please complete the required assessments and documentation prior to your evaluation:</p><p><a class="btn" href="{pearson_link}">Complete FFDE Assessment</a></p><p><strong>Evaluation Session:</strong> <a href="{zoom_link}">Join FFDE Meeting</a></p><p>This evaluation will assess your current fitness for duty. Please ensure you are in a quiet, private location for the session.</p><p>Sincerely,<br><strong>Atlantic OccuPsych Team</strong></p></div></body></html>'
+                'template' => '<html><head><body></body></html>'
             ],
             '48hour' => [
                 'subject' => 'Reminder: FFDE Evaluation in 48 hours',
-                'template' => '<html><head><style>body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 30px; } .email-container { background-color: #ffffff; padding: 30px; max-width: 600px; margin: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); } h2 { color: #ff6b35; } p { line-height: 1.6; } a.btn { display: inline-block; margin: 10px 0; padding: 12px 20px; background-color: #ff6b35; color: white !important; text-decoration: none; border-radius: 5px; }</style></head><body><div class="email-container"><h2>Hi {first_name},</h2><p><strong>Reminder: Your FFDE evaluation is in 48 hours - {eval_date} at {eval_time} ET.</strong></p><p>Please ensure you have completed all required assessments and are prepared for your evaluation.</p><p><a class="btn" href="{pearson_link}">Complete Assessment</a></p><p>Evaluation link: <a href="{zoom_link}">{zoom_link}</a></p><p>Remember to find a quiet, private space for your evaluation session.</p><p>Atlantic OccuPsych Team</p></div></body></html>'
+                'template' => '<html><head><body></body></html>'
             ],
             '24hour' => [
                 'subject' => 'IMPORTANT: FFDE Evaluation Tomorrow',
-                'template' => '<html><head><style>body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 30px; } .email-container { background-color: #ffffff; padding: 30px; max-width: 600px; margin: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-left: 5px solid #ff6600; } h2 { color: #ff6600; } p { line-height: 1.6; } a.btn { display: inline-block; margin: 10px 0; padding: 12px 20px; background-color: #ff6600; color: white !important; text-decoration: none; border-radius: 5px; }</style></head><body><div class="email-container"><h2>Important Notice - {first_name}</h2><p><strong>Your FFDE evaluation is TOMORROW: {eval_date} at {eval_time} ET.</strong></p><p>Final preparation checklist:</p><ul><li>All assessments completed</li><li>Quiet, private location secured</li><li>Stable internet connection verified</li></ul><p><a class="btn" href="{zoom_link}">Join Tomorrow\'s FFDE</a></p><p>Atlantic OccuPsych Team</p></div></body></html>'
+                'template' => '<html><head><body></body></html>'
             ]
         ]
     ];
@@ -682,11 +682,11 @@ function spl_settings_page() {
                 </tr>
                 <tr>
                     <th>From Name</th>
-                    <td><input type="text" name="spl_from_name" value="<?php echo esc_attr(get_option('spl_from_name', 'Calvin Whitehurst')); ?>" size="40" /></td>
+                    <td><input type="text" name="spl_from_name" value="<?php echo esc_attr(get_option('spl_from_name', 'Email Sender')); ?>" size="40" /></td>
                 </tr>
                 <tr>
                     <th>From Email</th>
-                    <td><input type="email" name="spl_from_email" value="<?php echo esc_attr(get_option('spl_from_email', 'calvin@calvinwhitehurst.com')); ?>" size="40" /></td>
+                    <td><input type="email" name="spl_from_email" value="<?php echo esc_attr(get_option('spl_from_email', 'email@website.com')); ?>" size="40" /></td>
                 </tr>
             </table>
 
@@ -899,19 +899,19 @@ function spl_settings_page() {
 register_activation_hook(__FILE__, function() {
     add_option('spl_api_token', '');
     add_option('spl_sheet_id', '');
-    add_option('spl_from_name', 'Calvin Whitehurst');
-    add_option('spl_from_email', 'calvin@calvinwhitehurst.com');
+    add_option('spl_from_name', '');
+    add_option('spl_from_email', '');
     add_option('spl_webhook_id', '');
     
-    // Set default column IDs (your original ones)
+    // Set default column IDs 
     add_option('spl_email_column_id', '');
-    add_option('spl_first_name_column_id', '4570175451647876');
-    add_option('spl_client_name_column_id', '6637419497213828');
-    add_option('spl_eval_time_column_id', '1150270379347844');
-    add_option('spl_eval_date_column_id', '6779769913560964');
-    add_option('spl_pearson_column_id', '2967725300993924');
-    add_option('spl_zoom_column_id', '4343192016867204');
-    add_option('spl_talogy_column_id', '5219525114679172');
+    add_option('spl_first_name_column_id', '');
+    add_option('spl_client_name_column_id', '');
+    add_option('spl_eval_time_column_id', '');
+    add_option('spl_eval_date_column_id', '');
+    add_option('spl_pearson_column_id', '');
+    add_option('spl_zoom_column_id', '');
+    add_option('spl_talogy_column_id', '');
     add_option('spl_checkbox_column_id', '');
     add_option('spl_service_type_column_id', '');
     
